@@ -30,10 +30,7 @@ public class ConvertStringToCamelCase {
     }
 
     public static void main(String[] args) {
-
-        String inputString = "The------stealth_-_-warrior";
-
-        System.out.println(toCamelCase(inputString));
+        System.out.println(toCamelCase("The-stealth_warrior"));
     }
 }
 
