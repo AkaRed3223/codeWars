@@ -1,4 +1,4 @@
-package org.kyu6;
+package codeWars.kyu6;
 
 /*
  * 6 kyu - Convert String to Camel Case

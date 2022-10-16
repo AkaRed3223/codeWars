@@ -1,4 +1,4 @@
-package org.kyu8;
+package codeWars.kyu8;
 
 /*
  * 8 kyu - Convert a Boolean to String

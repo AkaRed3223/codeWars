@@ -1,4 +1,4 @@
-package org.kyu8;
+package codeWars.kyu8;
 
 /*
  * 8 kyu - Reversed Strings
@@ -12,8 +12,6 @@ package org.kyu8;
  * 'word'   =>  'drow'
  *
  */
-
-import java.util.stream.IntStream;
 
 public class ReversedStrings {
 

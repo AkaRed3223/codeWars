@@ -1,4 +1,4 @@
-package org.kyu7;
+package codeWars.kyu7;
 
 /*
  * 7 kyu - List Filtering

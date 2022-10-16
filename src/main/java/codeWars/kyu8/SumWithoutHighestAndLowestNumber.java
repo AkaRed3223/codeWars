@@ -1,4 +1,4 @@
-package org.kyu8;
+package codeWars.kyu8;
 
 /*
  * 8 kyu - Sum without highest and lowest number

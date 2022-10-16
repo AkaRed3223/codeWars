@@ -1,4 +1,4 @@
-package org.kyu5;
+package codeWars.kyu5;
 
 /*
  * 5 kyu - Human Readable Time
