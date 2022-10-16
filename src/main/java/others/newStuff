@@ -1,0 +1,52 @@
+*** Strings ***
+- StringBuilder e StringBuffer
+Ambos possuem as mesmas funções, mas o StringBuffer é thread-safe, logo, é mais lento
+
+- StringBuilder(str).reverse();
+reverte a ordem dos caracteres em uma string
+
+- Formatar uma string da forma desejada
+String.format("(%d%d%d) %d%d%d-%d%d%d%d",
+                numbers[0], numbers[1], numbers[2], numbers[3], numbers[4],
+                numbers[5], numbers[6], numbers[7], numbers[8], numbers[9]);
+
+*** Boolean ***
+- Converter o valor boolean pra texto
+Boolean.toString()
+
+
+*** Arrays ***
+- Somar todos os números em um array
+Arrays.stream(array).sum()
+
+- Mapear o conteúdo de uma array para um array de integer
+Arrays.stream(array).mapToInt(Integer::parseInt).toArray()
+
+- Pegar o menor e o maior numero de uma array de integer
+Arrays.stream(intArray).min()
+Arrays.stream(intArray).max()
+
+- Ordenar um array de números por ordem crescente
+Arrays.sort(array)
+
+*** Lists ***
+- Checar se um object é uma instância de integer
+list.stream().filter(object -> object instanceof Integer).collect(Collectors.toList());
+
+
+
+*** Integer ***
+- Fazer um stream de todos os números de um ponto de partida até um ponto de chegada
+IntStream.rangeClosed(1, n); (start inclusive / end inclusive)
+IntStream.range(0, n) (start inclusive / end exclusive)
+A classe IntStream tem vários métodos, como por exemplo o .sum(), que soma todos os elementos do stream
+
+*** Math ***
+- Achar a raiz quadrada de um numero
+Math.sqrt(number)
+
+- Arredondar pra baixo
+Math.floor(number)
+- Arredondar pra cima
+Math.ceil(number)
+
