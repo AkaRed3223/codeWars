@@ -1,4 +1,4 @@
-package codeWars;
+package codeWars.kyu7;
 
 /*
  * 7 kyu - Find the next perfect square!
