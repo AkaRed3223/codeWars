@@ -18,7 +18,7 @@ public class Collatz {
 
     public static void main(String[] args) {
 
-        long number = 152154531231212L;
+        long number = 1521545312312121212L;
 
         List<Long> collatzList = getCollatz(number);
         System.out.printf("Number of iterations: %d%n", collatzList.size());

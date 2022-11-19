@@ -10,6 +10,13 @@ String.format("(%d%d%d) %d%d%d-%d%d%d%d",
                 numbers[0], numbers[1], numbers[2], numbers[3], numbers[4],
                 numbers[5], numbers[6], numbers[7], numbers[8], numbers[9]);
 
+- string.startsWith(criteria)
+Checa se uma determinada string começa de alguma forma a ser verificada
+
+- String.format(%02X, 9)
+Converte um inteiro qualquer para seu valor em hexadecimal.
+ATT: Se o inteiro está fora do range 0:255, corrija antes de passar
+
 *** Boolean ***
 - Converter o valor boolean pra texto
 Boolean.toString()
